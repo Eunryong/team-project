@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def draw_map():
     # 데이터 불러오기
-    merged = pd.read_csv('area1_data.csv')   # area1만 또는 전체 병합본 사용
+    merged = pd.read_csv('temp.csv')   # area1만 또는 전체 병합본 사용
 
     # 좌표 범위 계산
     min_x, max_x = 1, merged['x'].max()
